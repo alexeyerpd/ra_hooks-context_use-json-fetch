@@ -3,6 +3,9 @@
 $block: '.#{variables.$ns}app';
 
 #{$block} {
+    display: grid;
+    grid-auto-flow: column dense;
+
     max-width: 1280px;
     margin-inline: auto;
     padding: 20px;
